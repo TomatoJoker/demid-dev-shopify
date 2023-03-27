@@ -1,0 +1,30 @@
+.card-sticky {
+    border-top: 1px solid;
+    background: rgba(var(--color-background));
+    position: fixed;
+    z-index: 999;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    max-height: 0px;
+    visibility: hidden;
+    transition: all var(--duration-default) ease;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.card-sticky.show {
+    max-height: 9999px;
+    transform: translateY(0%);
+    visibility: visible;
+    opacity: 1;
+}
+
+.card-sticky h1, .card-sticky h2, .card-sticky h3, .card-sticky h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-sticky__row {
+    padding: 10px 0px 10px 60px;
+}
