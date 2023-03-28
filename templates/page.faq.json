@@ -3,13 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "098b3a57-dd45-4ebf-bcde-cb0b0ec24106": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -20,7 +13,6 @@
         }
       },
       "block_order": [
-        "098b3a57-dd45-4ebf-bcde-cb0b0ec24106",
         "text"
       ],
       "settings": {
