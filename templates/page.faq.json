@@ -1,0 +1,123 @@
+{
+    "sections": {
+        "image_banner": {
+            "type": "image-banner",
+            "blocks": {
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "text": "You have questions. We have answers.",
+                        "text_style": "subtitle--large",
+                        "text_wrap": true
+                    }
+                }
+            },
+            "block_order": [
+                "text"
+            ],
+            "settings": {
+                "image": "{{ shop.brand.cover_image }}",
+                "image_overlay_opacity": 40,
+                "image_height": "small",
+                "adapt_height_first_image": false,
+                "desktop_content_position": "bottom-center",
+                "show_text_box": false,
+                "desktop_content_alignment": "center",
+                "color_scheme": "background-1",
+                "mobile_content_alignment": "center",
+                "stack_images_on_mobile": false,
+                "show_text_below": false
+            }
+        },
+        "collapsible-content": {
+            "type": "collapsible-content",
+            "blocks": {
+                "5e13748a-5165-4556-83de-2f879c076751": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Accordion title",
+                        "icon": "check_mark",
+                        "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dicta eius est eum exercitationem iste iure labore minus necessitatibus officiis, perspiciatis quam quas repellat sapiente temporibus tenetur unde vel?<p>",
+                        "page": ""
+                    }
+                },
+                "5ceb5a45-cffb-4248-a1f0-a47a43d892dc": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Accordion title",
+                        "icon": "check_mark",
+                        "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dicta eius est eum exercitationem iste iure labore minus necessitatibus officiis, perspiciatis quam quas repellat sapiente temporibus tenetur unde vel?<p>",
+                        "page": ""
+                    }
+                },
+                "37696ff7-d078-4563-95a6-df41fd94281c": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Accordion title",
+                        "icon": "check_mark",
+                        "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dicta eius est eum exercitationem iste iure labore minus necessitatibus officiis, perspiciatis quam quas repellat sapiente temporibus tenetur unde vel?<p>",
+                        "page": ""
+                    }
+                },
+                "fc9997d5-b91a-4214-a1da-cf9d22f2d54c": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Accordion title",
+                        "icon": "check_mark",
+                        "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet dicta eius est eum exercitationem iste iure labore minus necessitatibus officiis, perspiciatis quam quas repellat sapiente temporibus tenetur unde vel?<p>",
+                        "page": ""
+                    }
+                }
+            },
+            "block_order": [
+                "5e13748a-5165-4556-83de-2f879c076751",
+                "5ceb5a45-cffb-4248-a1f0-a47a43d892dc",
+                "37696ff7-d078-4563-95a6-df41fd94281c",
+                "fc9997d5-b91a-4214-a1da-cf9d22f2d54c"
+            ],
+            "settings": {
+                "caption": "",
+                "heading": "Collapsible content",
+                "heading_size": "h1",
+                "heading_alignment": "center",
+                "layout": "none",
+                "color_scheme": "background-1",
+                "container_color_scheme": "background-2",
+                "open_first_collapsible_row": false,
+                "image_ratio": "adapt",
+                "desktop_layout": "image_second",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "question": {
+            "type": "question",
+            "blocks": {
+                "heading": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Still have a question?",
+                        "tag": "h2"
+                    }
+                },
+                "text": {
+                    "type": "text",
+                    "settings": {
+                        "content": "<p>Please <a href=\"\/pages\/contact\" title=\"Contact\">contact<\/a> us with any question or comment you may have.<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "heading",
+                "text"
+            ],
+            "settings": {
+            }
+        }
+    },
+    "order": [
+        "image_banner",
+        "collapsible-content",
+        "question"
+    ]
+}
