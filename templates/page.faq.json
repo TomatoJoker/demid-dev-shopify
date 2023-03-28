@@ -3,13 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "309c77d0-7ff2-4cd0-a59a-b59a2dd0cd93": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {

@@ -294,7 +294,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     {% if template contains 'collection' %}
-      {{ 'https://cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937' | script_tag }}
+      {{ 'ajaxinate.min.js' | asset_url | script_tag }}
     {% endif %}
   </body>
 </html>
