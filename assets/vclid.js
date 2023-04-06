@@ -17,7 +17,7 @@ class PageController {
 
     setCartNote() {
         if (this.getStoredVclid() != null) {
-            const cartNote = document.querySelector('cart-note');
+            const cartNote = document.getElementById('Cart-note');
             if (cartNote) {
                 cartNote.value = this.getStoredVclid();
                 cartNote.focus();
