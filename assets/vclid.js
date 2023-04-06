@@ -1,6 +1,6 @@
 class PageController {
     constructor() {
-        if (this.window.location.href.includes('?vclid=')) {
+        if (window.location.href.includes('?vclid=')) {
             this.setVclid();
         }
         this.setCartNote();
