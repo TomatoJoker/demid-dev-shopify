@@ -1,25 +1,26 @@
 class PageController {
     constructor() {
-        const vclidGet = window.location.search.replace('?vclid=', '');
-        this.vclid = vclidGet;
-        this.setVclid();
+        if (this.window.location.href.includes('?vclid=')) {
+            this.setVclid();
+        }
         this.setCartNote();
     }
 
     setVclid() {
-        if (!localStorage.getItem('vclid')) {
-            localStorage.setItem('vclid', this.vclid);
-        }
+        const vclidGet = window.location.search.replace('?vclid=', '');
+        localStorage.setItem('vclid', vclidGet);
     }
 
-    getVclid() {
+    getStoredVclid() {
         return localStorage.getItem('vclid');
     }
 
     setCartNote() {
-        const cartNote = document.getElementById('CartDrawer-Note');
-        if (cartNote) {
-            cartNote.value = this.getVclid();
+        if (this.getStoredVclid() != null) {
+            const cartNote = document.getElementById('CartDrawer-Note');
+            if (cartNote) {
+                cartNote.value = this.getStoredVclid();
+            }
         }
     }
 }
