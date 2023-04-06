@@ -20,6 +20,7 @@ class PageController {
             const cartNote = document.getElementById('CartDrawer-Note');
             if (cartNote) {
                 cartNote.value = this.getStoredVclid();
+                cartNote.focus();
             }
         }
     }
